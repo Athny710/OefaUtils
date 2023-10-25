@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OefaUtils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OefaUtils_jar</output-path>
+    <root id="archive" name="OefaUtils.jar">
+      <element id="module-output" name="OefaUtils" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/zxing/core/3.5.2/core-3.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.9/itextpdf-5.5.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/aspose/aspose-words/18.5/aspose-words-18.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.aspose:aspose-words:18.5" />
+      <element id="library" level="project" name="Maven: com.google.zxing:core:3.5.2" />
+      <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.9" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:pdfbox:2.0.24" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:fontbox:2.0.24" />
+    </root>
+  </artifact>
+</component>
