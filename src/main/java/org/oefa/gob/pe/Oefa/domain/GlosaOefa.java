@@ -1,6 +1,6 @@
 package org.oefa.gob.pe.Oefa.domain;
 
-public class GlosaSSFD {
+public class GlosaOefa {
 
 
     private String text;
@@ -8,7 +8,7 @@ public class GlosaSSFD {
     private String barcodePin;
 
 
-    public GlosaSSFD(String text, String url, String barcodePin) {
+    public GlosaOefa(String text, String url, String barcodePin) {
         this.text = text;
         this.url = url;
         this.barcodePin = barcodePin;
