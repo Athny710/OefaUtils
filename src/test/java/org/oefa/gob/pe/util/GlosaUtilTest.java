@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 
 class GlosaUtilTest {
 
-    private final String testFilePath = "C://Users/Anthony/Desktop/Prueba_horizontal.pdf";
+    private final String testFilePath = "C://Users/Anthony/Documents/Pruebas/Oficio_v1.pdf";
     private final String destFilePath = "C://Users/Anthony/Desktop/Prueba_glosa.pdf";
     private final String text = "Documento electrónico firmado digitalmente en el marco de la Ley N° 27269, Ley de Firmas y Certificados Digitales, su Reglamento y modificatorias. %%La integridad del documento y la autoría de la(s) firma(s) pueden ser verificadas en %%https://apps.firmaperu.gob.pe/web/validador.xhtml";
     private final String text2 = "Documento electrónico firmado digitalmente en el marco de la Ley N° 27269, Ley de Firmas y Certificados Digitales, su Reglamento y modificatorias. %%https://apps.firmaperu.gob.pe/web/validador.xhtml%%https://apps.firmaperu.gob.pe/web/validador.xhtml";

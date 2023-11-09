@@ -131,11 +131,11 @@ public class Glosa {
             float posX2 = rectangle.getWidth() - 18;
             float posY1 = ( rectangle.getHeight() - (horizontalPage ? Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_HORIZONTAL : Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_VERTICAL) ) / 2;
             float posY2 = ( rectangle.getHeight() - (horizontalPage ? Constant.GlosaFirmaPeru.HEIGHT_TEXT_BOTTOM_HORIZONTAL: Constant.GlosaFirmaPeru.HEIGHT_TEXT_BOTTOM_VERTICAL) ) / 2;
-            float posY3 = posY2 + (horizontalPage ? 298 : 372);
+            float posY3 = posY2 + (horizontalPage ? 298 : 335);
             float fontSize = horizontalPage ? Constant.GlosaFirmaPeru.FONT_HORIZONTAL : Constant.GlosaFirmaPeru.FONT_VERTICAL;
             float rotation = 90;
 
-            Rectangle rect = new Rectangle(posX1-14, posY1-5, posX1+20, posY1+5+(horizontalPage ? Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_HORIZONTAL : Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_VERTICAL));
+            Rectangle rect = new Rectangle(posX1-13, posY1-5, posX1+18, posY1+5+(horizontalPage ? Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_HORIZONTAL : Constant.GlosaFirmaPeru.HEIGHT_TEXT_TOP_VERTICAL));
             rect.setBorderColor(new BaseColor(89, 89, 89, Constant.GlosaFirmaPeru.OPACITY_RECTANGLE));
             rect.setBorder(Rectangle.BOX);
             rect.setBorderWidth(0.5f);
